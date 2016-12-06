@@ -1,0 +1,40 @@
+
+// Descriptive Color Variables
+
+$white        : #fff;
+$black        : #000;
+$grey         : #878787;
+$danube       : #6488C4;
+$amethyst     : #9564C4;
+$mantis       : #64C473;
+
+// Functional color variables
+
+$color-prim          : $mantis;
+$color-sec           : $amethyst;
+
+$color-text-light    : $grey;
+$color-text-base     : $danube;
+$color-prim-dark     : $black;
+
+$color-border        : lighten($danube, 35%);
+$color-sec           : darken($danube, 35%);
+
+// Font Stacks
+
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-helvetica: "Helvetica Neue", $stack-sans-serif;
+$stack-abolition: 'Abolition Regular', $stack-sans-serif;
+
+// Border Radius
+
+$br: 10px;
+
+// Assets paths
+
+$path-img  : '../img';
+$path-font : '../fonts';
+
+// Media Break points
+$brk-narrow   : '(max-width: 768px)';
+$brk-wide     : '(max-width: 1024px)';
